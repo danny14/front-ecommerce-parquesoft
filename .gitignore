@@ -1,0 +1,28 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies & Build artifacts
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables & secrets (Excluidos estrictamente)
+.env
+.env*.local
+!.env.example
+
+# Archivos de contexto y documentación solicitados excluir
+*.md
+
+# Editor & OS files
+.idea
+.vscode
+.DS_Store
+Thumbs.db
